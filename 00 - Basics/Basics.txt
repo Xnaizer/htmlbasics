@@ -1,0 +1,141 @@
+HTML / Hype Text Markup Languange.
+
+For standard markup language for creating web pages.
+
+Simple Example = 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Page</title>
+</head>
+<body>
+<h1>First Heading</h1>
+<p>paragraf</p>
+</body>
+</html>
+
+save with index.htm
+
+===================================================================================
+
+<div> membuat blok suatu kode, seperti membuat 1 judul untuk beberapa komponen
+<div id="keterangan"> untuk memberikan nama komponen tersebut contoh introduction
+<em> italic + informasi tambahan berupa pembaca layar ( untuk menjelaskan makna teks )
+<strong> bold + informasi tambahan berupa pembaca layar ( untuk menjelaskan makna teks )
+<br> tanpa /br = baris baru
+<ul> unordered list klo ini simbol *
+<ol> ordered list kea 1. 2. 3. 
+<li> untuk ngelist itemnya
+
+example :
+<menu>
+  <ul>
+    <li>Subitem 1</li>
+    <li>Subitem 2</li>
+  </ul>
+  <ol>
+    <li>Subitem A</li>
+    <li>Subitem B</li>
+  </ol>
+</menu>
+
+<dl> definision list
+
+example :
+	<dl>
+	   <dt> term 1</dt>
+	   <dd> description buat 1</dd>
+	<dl>
+misal :
+HTML			 	(dt) 
+   Hypertext Markup Langguange  (dd) *ada space diawal hypertext, itu kegunaan dd.
+
+<img src="image-location.jpg" /> buat menambahkan image
+<u> underline
+<i> italic
+<b> bold
+
+
+<a> Hypertlink membuat teks menjadi link
+
+example :
+<p> klik <a href="">disini</a> untuk melanjukan web
+
+*href (menuliskan sumber = external link/website publik atau internal link/relative url/ file yang berbeda.
+<p> klik <a href="http://www.w3school.com">disini</a> untuk melanjukan web</p>
+
+semisal memiliki 2 file yaitu page1.htm dan page2.htm
+maka pada code page 1, kita akan membuat jalan menuju ke page 2 hanya dengan mengklik link.
+<p> klik <a href="page2.htm">disini</> untuk melanjukan web *harus berada di folder yang sama</p>
+
+*jika terdapat pada folder yang berbeda maka
+<p> klik <a href="namafolderkamu/page2.htm">disini</a> untuk melanjukan web *harus berada di folder yang sama</p>
+
+===================================================================================
+
+Tags = kode html < tags >
+view more at www.w3school.com/tags
+
+<head> tags = 
+- <title> judul halaman
+- <scripts> javascript
+- <style> css
+- <metadata> metadata
+	example :	<head>
+				<meta charset="UTF-8">
+				<meta name="description" content="HTML Dasar">
+				<meta name="keywords" content="HTML,CSS,Javascripts">
+				<meta name="author" content="Sandika Galih">
+			</head>
+
+<body> tags = 
+- < h1-h6 > headings
+- <br> baris baru, <hr> garis horizontal, <em> italic, <strong> bold
+- <img> gambar
+- <a> hyperlink
+- <ul> unordered list, <ol> ordered list, <li> list, <dl> , <dt> , <dd>
+- <ul type="disc,square,circle">
+- <ol type="1,A,a,I,i">
+- <table>,<thead>,<tbody> tabels
+- <form>, <input>, <select> , <button> form
+- <script> javascript
+- <object> objek
+- <div> , <span> grouping
+- <!-- komentar -->
+
+Struktur Tags = 
+< namatag atribut="nilai" > 	--> 	<body bgcolor="lightblue" id="myid" class="myclass">
+
+Atribut Tags =
+- accesskey = xx
+- class dan id = menandakan suatu grouping
+- dir = menentukan arah tulisan
+- lang = bahasa
+- style = menyisipkan inline css
+- tabindex = untuk menentukan urutan form
+- title = judul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
